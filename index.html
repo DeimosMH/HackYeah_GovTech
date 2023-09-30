@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+    <script>
+        function displayDate() {
+            var today = new Date();
+            var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            var dateTime = date+' '+time;
+            document.getElementById('dateTime').innerHTML = dateTime;
+        }
+    </script>
+</head>
+<body onload="displayDate()">
+    <h1>Hello, World!</h1>
+    <p>Today's date and time is: <span id="dateTime"></span></p>
+</body>
+</html>

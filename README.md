@@ -1,4 +1,11 @@
-# GovTech 2023 Eyecatch Team
+# GovTech 2023 Ctrl+Esc+Lemur Team
 
-1. Tems name
-1.
+## Server 
+
+- Alpine Linux 
+
+### Dependencies
+
+```sh
+apk add --update nodejs npm
+```
