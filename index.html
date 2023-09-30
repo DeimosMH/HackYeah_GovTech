@@ -22,10 +22,12 @@
     </div>
     <button id="submitBtn" class="btn btn-primary">Submit</button>
     <div id="response" class="mt-3"></div>
-
+</body>
 </html>
 
 <script>
+    var apiKey = "";
+
     function displayDate() {
         var today = new Date();
         var date = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
@@ -33,6 +35,7 @@
         var dateTime = date + ' ' + time;
         document.getElementById('dateTime').innerHTML = dateTime;
     }
+
     (async () => {
         // const { chatgpt } = await import(chrome.runtime.getURL('lib/chatgpt.js'));
         document.getElementById('submitBtn').addEventListener('click', async () => {
@@ -50,4 +53,28 @@
         })();
 
     })();
+
 </script>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>ChatGPT API</h2>
+
+<button onclick="sendRequest()">Send Request</button>
+
+<p id="demo"></p>
+
+<script>
+import OpenAI from "openai";
+
+function sendRequest() {
+  const apiKey = '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';
+
+}
+</script>
+
+</body>
+</html>
