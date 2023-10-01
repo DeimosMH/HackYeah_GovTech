@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .custom-back-button {
+    background-color: white;
+    border: 2px solid #0052A5;
+    color: #0052A5;
+    border-radius: 25px;
+}
+
+.custom-back-button:hover {
+    background-color: #0052A5;
+    color: white;
+}
+
+.custom-next-button {
+    background-color: #0052A5;
+    color: white;
+    border-radius: 25px;
+}
+
+.custom-next-button:hover {
+    background-color: white;
+    color: #0052A5;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="https://edukacja.gov.pl/">
+            <img alt="Herb Polski" src="https://aplikacje.edukacja.gov.pl/app/assets/herb-polski.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            edukacja.gov.pl 
+          </a>
+        </div>
+    </nav>
+
+        <div class="progress-points d-flex justify-content-around pt-5 mt-5 container">
+            <img src="/img/progress_point_off.png" class="progress-point">
+            <img src="/img/progress_point_off.png" class="progress-point">
+            <img src="/img/progress_point_off.png" class="progress-point">
+            <img src="/img/progress_point_on.png" class="progress-point">
+            <img src="/img/progress_point_off.png" class="progress-point">
+            <img src="/img/progress_point_off.png" class="progress-point">
+        </div>
+        <div class="container mt-5">
+            <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-8 question">
+
+        <h3>Zaznacz swoje umiejętności</h3>
+        <br>
+        <!-- Four columns of checkbox lists -->
+        <div class="row">
+            <!-- Div with multiple buttons as tags -->
+        <div>
+            <button class="btn btn-light tag-button">kreatywność</button>
+            <button class="btn btn-light tag-button">komunikacja</button>
+            <button class="btn btn-light tag-button">umiejętności techniczne</button>
+            <button class="btn btn-light tag-button">umiejętności przywódcze</button>
+            <button class="btn btn-light tag-button">prezentowanie</button>
+            <button class="btn btn-light tag-button">Praca w grupie</button>
+            <button class="btn btn-light tag-button">Publiczne przemówienia</button>
+            <button class="btn btn-light tag-button">analityczne myślenie</button>
+        </div>
+        </div>
+    </div>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <a href="/html/question3.html" class="btn btn-secondary rounded-pill custom-back-button">Wstecz</a>
+            </div>
+            <div class="col text-center">
+                <a href="/html/question5.html" class="btn btn-primary rounded-pill custom-next-button">Dalej</a>
+            </div>
+        </div>
+    </div>
+   
+        
+        
+       
+
+</body>
+
+</html>
