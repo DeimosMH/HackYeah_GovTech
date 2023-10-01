@@ -39,3 +39,44 @@ banner {
     --bs-btn-bg:#0052A5;
     --bs-btn-color: var(--bs-white);
 }
+.custom-back-button {
+    background-color: white;
+    border: 2px solid #0052A5;
+    color: #0052A5;
+    border-radius: 25px;
+}
+
+.custom-back-button:hover {
+    background-color: #0052A5;
+    color: white;
+}
+
+.custom-next-button {
+    background-color: #0052A5;
+    color: white;
+    border-radius: 25px;
+}
+
+.custom-next-button:hover {
+    background-color: white;
+    color: #0052A5;
+}
+.progress-points {
+    display: flex;
+    justify-content: center; /* Wyśrodkuj w poziomie */
+    align-items: center; /* Wyśrodkuj w pionie */
+}
+
+.progress-point {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    z-index: 0;
+}
+
+.progress-points hr {
+    color: black;
+    position: absolute;
+    width: 60%; /* Linia zajmie pełną szerokość kontenera */
+    margin: 10px 0; /* Dodaj marginesy nad i pod linią */
+}
