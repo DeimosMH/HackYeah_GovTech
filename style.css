@@ -78,3 +78,9 @@
     width: 60%; /* Linia zajmie pełną szerokość kontenera */
     margin: 10px 0; /* Dodaj marginesy nad i pod linią */
 }
+
+.roadmap-img{
+    height: 30%;
+    display: grid;
+    place-items: center;
+}
