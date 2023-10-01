@@ -8,11 +8,12 @@ function displayNextQA() {
         questionElement.innerText = qAndA[currentQAIndex].q;
         answerElement.innerText = qAndA[currentQAIndex].a;
         currentQAIndex++;
-        setTimeout(typeWriter, speed);
+        // setTimeout(typeWriter, speed);
     } else {
-        questionElement.innerText = finalResponse;
-        answerElement.innerText = "";
 
+        questionElement.innerText = "Propozycja AI";
+        answerElement.innerText = finalResponse;
+        
         let btn = document.getElementById('btn');
         btn.style.display = 'none';
     }
