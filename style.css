@@ -1,0 +1,23 @@
+.banner {
+    background-image: url(./img/banner.png);
+    width: 100vw;
+    height: 40vh;
+    
+}
+.without{
+    text-decoration: none;
+}
+.banner2{
+    background-image: url(./img/test1.png);
+    width: 100vw;
+    height: 60vh;
+    background-size: contain;
+    padding-top: 10%;
+}
+.black{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(7, 7, 7));
+}
+.iTest{
+    border: solid 1px black;
+    border-radius: 5px;
+}
